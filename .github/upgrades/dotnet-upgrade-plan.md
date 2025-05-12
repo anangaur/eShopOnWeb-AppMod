@@ -53,7 +53,7 @@ NuGet packages used across all selected projects or their dependencies that need
 | System.Text.Json | 6.0.5 | 9.0.5 | Security vulnerability |
 | Microsoft.VisualStudio.Azure.Containers.Tools.Targets | 1.17.0 | (remove) | Incompatible with .NET 9.0 |
 | Microsoft.AspNetCore.Mvc | 2.2.0 | 2.3.0 | Deprecated |
-| Blazored.LocalStorage| | 4.5.0 | | 
+| Blazored.LocalStorage | 4.2.0 | 4.5.0 | |
 
 ### Project upgrade details
 
