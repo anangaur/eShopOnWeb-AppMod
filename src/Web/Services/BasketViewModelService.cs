@@ -66,7 +66,7 @@ public class BasketViewModelService : IBasketViewModelService
                 Quantity = basketItem.Quantity,
                 CatalogItemId = basketItem.CatalogItemId,
                 PictureUrl = _uriComposer.ComposePicUri(catalogItem.PictureUri),
-                ProductName = catalogItem.Name
+                ProductName = new Ganss.XSS.HtmlSanitizer().Sanitize(catalogItem.Name)
             };
             return basketItemViewModel;
         }).ToList();
